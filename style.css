@@ -1,12 +1,37 @@
 .container {
     margin: 0 auto;
-    height: 100vh;
+    height: 100%;
+    padding-top: 10%;
+    
+}
+
+
+.input__first,
+.input__second{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
+input[type="range"] {
+    width: 170px;
+    margin-top: 50px;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+
+
+
+.div__second {
+    margin-top: 50px;
+}
+
+#select,
 .div,
-#select {
+.div__second {
     margin-left: 15px;
 }
+
+

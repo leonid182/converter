@@ -11,13 +11,21 @@
 <body>
     
     <div class="container">
-        <input type="number" placeholder="Rub" id="input">
-        <select name="" id="select">
-            <option value="eur" id="">Eur</option>
-            <option value="usd" id="">Usd</option>
-        </select>
-        <div class="div"></div>
+        <div class="input__first">
+            <input type="number" placeholder="Rub" id="input">
+            <select name="" id="select">
+                <option value="eur" id="">Eur</option>
+                <option value="usd" id="">Usd</option>
+            </select>
+            <div class="div"></div>
+        </div>
+        <div class="input__second">
+            <input type="range" placeholder="Quantity" id="input__second" value="0" max="100">
+           
+            <div class="div__second"></div>
+        </div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

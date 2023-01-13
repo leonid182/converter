@@ -7,7 +7,8 @@
 
 
 .input__first,
-.input__second{
+.input__second,
+.input__third{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +22,10 @@ input[type="range"] {
     cursor: pointer;
 }
 
+.input__third {
+    margin-top: 50px;
+}
+
 
 
 
@@ -28,9 +33,14 @@ input[type="range"] {
     margin-top: 50px;
 }
 
-#select,
 .div,
-.div__second {
+.div__second,
+.div__third {
+    margin-left: 15px;
+}
+
+#select,
+#select__third {
     margin-left: 15px;
 }
 

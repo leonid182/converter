@@ -4,8 +4,8 @@ let select = document.getElementById('select');
 let div = document.querySelector('.div');
 
 let task = {
-    eur: 0.14,
-    usd: 0.13
+    eur: 0.014,
+    usd: 0.013
 };
 
 

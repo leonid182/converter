@@ -12,6 +12,10 @@ let task = {
 
 
 let exchenge = (rub, current)=>{
+    if(rub<0){
+        return null
+    }
+
     return(rub*task[current]);
 }
 
